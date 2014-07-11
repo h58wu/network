@@ -1,0 +1,21 @@
+
+put all files in one directory
+
+type make in terminal
+
+
+
+then execute nEmulator receiver send (for exmaple):
+	1. on the host host1: nEmulator 9991 host2 9994 9993 host 3 9992 1 0.2 0
+	2. host2: java receiver host1 9993 9994 <out file>
+	3. host3: java sender host1 9991 9992 <input file> 
+
+
+MACHINE TO TEST ON:
+
+			ubuntu1204-002.student.cs.uwaterloo.ca
+			ubuntu1204-004.student.cs.uwaterloo.ca
+			ubuntu1204-006.student.cs.uwaterloo.ca
+
+VERSION OF MAKE
+			GNU Make 3.81
