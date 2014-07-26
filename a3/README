@@ -1,0 +1,12 @@
+1.Run "make" first
+2.open 6 terminals 5 of them should be on same ubuntu-linux machine( they are  routers)(host1), the rest should be different(host2).
+3.open nse-linux386 on the different machine:
+	./nse-linux386 host1 port_0
+4. run the other five routers:
+	./router 1 host2 port_0 port_1
+	./router 2 host2 port_0 port_2
+	./router 3 host2 port_0 port_3
+	./router 4 host2 port_0 port_4
+	./router 5 host2 port_0 port_5
+5. after few seconds check all log_files
+6.terminal program be ctrl+ c
